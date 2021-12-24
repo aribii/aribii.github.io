@@ -65,8 +65,7 @@ h6{
 }
 
 img{
-    display: flex;
-    position: absolute;
+position: absolute;
 width: 706px;
 height: 848px;
 left: 632px;
