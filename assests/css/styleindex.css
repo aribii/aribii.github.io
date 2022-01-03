@@ -16,11 +16,55 @@
 .navbar{
     width: 100%;
     display: flex;
+    flex: 1;
     align-items: center;
 }
 
 .logo{
     width: 30px;
-    cursor: pointer;
     margin:50px 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 195px;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "josefin sans";
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000
+}
+
+nav ul li a:hover{
+    color: coral;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 175px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 25px;
+}
+.col-1 h2{
+    font-size: 80px;
+    font-family: "italiana";
+    font-weight: lighter;
+}
+
+.col-1 h3{
+    font-size: 10px;
+    font-family: "josefin sans";
+    font-weight: bold;
 }
