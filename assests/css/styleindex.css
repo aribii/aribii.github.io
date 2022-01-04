@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-/*================GOOGLE FONTS=====================*/
-
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-
 /*================NAVBAR=====================*/
 
 .container{
@@ -56,16 +52,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: left;
-    margin: 175px 0;
+    margin: 168px 0;
 }
 
 .col-1{
     flex-basis: 40%;
     position: relative;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .col-1 h2{
-    font-size: 80px;
+    font-size: 75px;
     font-family: 'Italiana', serif;
     font-weight: lighter;
 }
@@ -76,21 +72,6 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-/*================IMAGE=====================*/
-
-.col-2{
-    position: relative;
-    flex-basis: 60%;
-    display:flex;
-    align-items: center;
-    
-}
-
-.col-2 .indimg{
-    width: 90%;
-
-}
-
 .social-links img{
     height: 18px;
     margin: 12px;
@@ -98,6 +79,47 @@ nav ul li a:hover{
 }
 .social-links {
     text-align: left;
+}
+
+/*================IMAGE=====================*/
+
+.col-2{
+    position: relative;
+    flex-basis: 68%;
+    top: -150px;
+    left: 120px;
+    }
+
+.col-2 .indimg{
+    width: 60%;
+    display: flex;
+}
+
+/*================ABOUT=====================*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin: 15px 0;
+}
+
+.main{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 25px;
+    height: auto;
+    width: 430px;
+}
+
+.about-text p{
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 14px;
+}
+
+.about-text h2, h3{
+    font-family: 'Italiana', serif;
+    font-size: 36px;
 }
 
 @media only screen and (max-width:700px){
