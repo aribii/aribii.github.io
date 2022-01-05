@@ -3,22 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name= "viewport" content="width=device-width, initial-scale=0.1">
-
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
 <!--================CSS===========================-->
-
         <link rel="stylesheet" type="text/css" href="assests/css/styleindex.css">
-
 <!--================GOOGLE FONTS=====================-->
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-
         <title>Arianna Portfolio</title>
         </head>
         <body>
 <!--====================NAVBAR======================-->
-
          <div class="container">
              <div class="navbar">
                  <img src="assests/images/Logo header piccolo.png" class="Logo">
@@ -32,7 +27,6 @@
                  </nav>
              </div>
  <!--====================INDEX======================-->
-
              <div class="row">
                  <div class="col-1">
                      <h2>illustrator <br> & designer</h2>
@@ -50,7 +44,6 @@
                 </div>
              </div>
         </div>
-
 <!--====================ABOUT ME======================-->
 <div class="about">
     <div class="main">
@@ -69,15 +62,36 @@
      </div>
  </div>
 </div>
+<!--====================PROJECTS========================-->
+<div class="project">
+    <p>My works are traditional because my favourite tecniques are watercolors and pencils. I love how you can create differents textures and feelings playing with water.</p>
 </div>
 <!--====================CONTACT ME======================-->
 <div class="contact-me">
-    <img src="assests/images/Logo header piccolo.png">
-    <p>get in touch</p>
-    <div class="form">
-
+   <div class="col3">
+    <img src="assests/images/Logo AB corsivo.png">
+    <div class="col3text">
+        <p>get in touch</p>
     </div>
+   </div> 
+        <div class="form">
+            <form action="information">
+          
+              <label for="fname">NAME</label>
+              <input type="text" id="fname" name="firstname" placeholder="YOUR NAME">
+          
+              <label for="email">EMAIL</label>
+              <input type="text" id="email" name="email" placeholder="YOUR EMAIL">
+                  
+              <label for="message">MESSAGE</label>
+              <textarea id="text" name="message" placeholder="WRITE SOMETHING" style="height:100px"></textarea>
+          
+              <input type="submit" value="CONTACT ME">
+          
+            </form>
+        </div>
 </div>
-</section>
-     </body>
+
+
+</body>
 </html>

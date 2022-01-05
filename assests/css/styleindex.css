@@ -1,12 +1,15 @@
+/*====ALL====*/
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*================NAVBAR=====================*/
+/*=======NAVBAR=======*/
 
 .container{
-    width: 100;
+    width: 100vw;
     min-height: 100vh;
     padding-top: 2%;
     padding-left: 10%;
@@ -19,6 +22,7 @@
     width: 100%;
     display: flex;
     flex: 1;
+    position: absolute;
     align-items: center;
 }
 
@@ -146,8 +150,7 @@ nav ul li a:hover{
 .social-links-about img{
     height: 18px;
     margin: 12px;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 0px;
 }
 
 .social-links-about {
@@ -158,7 +161,44 @@ nav ul li a:hover{
 
 .contact-me{
     width: 100%;
-    height: 300px;
+    height: 500px;
     display: flex;
     justify-content: center;
+}
+
+.contact-me img{
+    height:auto;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 108px;
+}
+
+.contact-me p{
+    font-family: 'Italiana', serif;
+    font-size: 38px;
+    font-weight: lighter;
+    margin-left: 138px;
+}
+
+.form{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    margin-left: 210px;
+}
+
+input[type=text], label, textarea, input{
+    font-family: 'josefin sans', serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type=text], label, textarea, input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
