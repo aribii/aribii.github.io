@@ -157,6 +157,15 @@ nav ul li a:hover{
     text-align: left;
 }
 /*================PROJECTS=======================*/
+
+h5{
+    font-family: 'Italiana';
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 68px;
+    margin-top: -28px;
+    }
+
 .gallery img{
     height: 100%;
     width: 100%;
@@ -200,8 +209,8 @@ section{
      width: 100%;
      padding: 12px;
      position: absolute;
-     background-color: #ffffffd0;
-     color: #e8bcb9;
+     background-color: #ffffffad;
+     color: #000000;
      bottom: -90px;
      font-weight: bold;
      transition: .5s ease-in-out bottom;
@@ -213,8 +222,13 @@ section{
      bottom:0;
  }
 
-
-
+ @media only screen and (min-width: 900px)
+ section {
+     max-width: 1160px;
+ }
+     
+ }
+/*================SKILLS=========================*/
 /*================CONTACT ME=====================*/
 
 .contact-me{
