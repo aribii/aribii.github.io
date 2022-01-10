@@ -60,12 +60,12 @@ nav ul li a:hover{
 }
 
 .col-1{
-    flex-basis: 60%;
+    flex-basis: 52%;
     position: relative;
     margin-left: 10px;
 }
 .col-1 h2{
-    font-size: 75px;
+    font-size: 65px;
     font-family: 'Italiana', serif;
     font-weight: lighter;
 }
@@ -88,24 +88,19 @@ nav ul li a:hover{
     position: relative;
     flex-basis: 100%;
     top: -180px;
-    left: 200px;
+    left: 180px;
     }
 
 .col-2 .indimg{
-    width: 70%;
+    width: 65%;
     height: auto;
     display: flex;
 }
 
 /*================ABOUT=====================*/
-
-.about{
-    margin: -200px 0;
-}
-
 .about img{
     height:auto;
-    width: 350px;
+    width: 380px;
     top: -128px;
     }
 
@@ -114,16 +109,12 @@ nav ul li a:hover{
     position: relative;
     margin-left: 145px;
     height: auto;
-    width: 530px;
-}
-
-.about-text{
-    width: 700px;
+    width: 100px;
 }
 
 .main{
-    width: 1130px;
-    max-width: 95%;
+    width: 90px;
+    max-width: 75%;
     margin: 0 auto;
     display:flex;
     align-items: center;
@@ -155,6 +146,7 @@ nav ul li a:hover{
 .social-links-about {
     text-align: left;
 }
+
 /*================PROJECTS=======================*/
 
 h5{
