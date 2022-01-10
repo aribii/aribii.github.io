@@ -20,23 +20,23 @@
                  <nav>
                      <ul>
                          <li><a href="index.html">HOME</a></li>
-                         <li><a href="">ABOUT ME</a></li>
-                         <li><a href"">PROJECTS</a></li>
-                         <li><a href"">CONTACT</a></li>
+                         <li><a href="#aboutme">ABOUT ME</a></li>
+                         <li><a href="#projects">PROJECTS</a></li>
+                         <li><a href="#contactme">CONTACT</a></li>
                      </ul>
                  </nav>
              </div>
  <!--====================INDEX======================-->
              <div class="row">
                  <div class="col-1">
-                     <h2>illustrator <br> & designer</h2>
+                     <h2>illustrator <br>& designer</h2>
                      <br>
                      <h3>HI, I'M ARIANNA BARRELLA</h3>
                      <br>
                      <div class="social-links">
                        <a href="https://www.behance.net/ariannabarrella"><img src="assests/images/2083161_behance_design_graphic_media_share_icon.svg"></a>
-                        <img src="assests/images/1161953_instagram_icon.svg">
-                        <img src="assests/images/7156610_linkedin_social_media_icon.svg">
+                       <a href="https://www.instagram.com/ari.bii/"><img src="assests/images/1161953_instagram_icon.svg"></a> 
+                       <a href="https://www.linkedin.com/in/ariannabarrella/"><img src="assests/images/7156610_linkedin_social_media_icon.svg"></a> 
                     </div>
                  </div>
                  <div class="col-2">
@@ -45,22 +45,24 @@
              </div>
         </div>
 <!--====================ABOUT ME======================-->
-<div class="about">
-    <div class="main">
-        <img src="assests/images/Close up.png">
-    <div class="about-text">
-            <h2>about me</h2>
-            <p>HI, I’M ARIANNA BARRELLA, I’M AN ILLUSTRATOR AND GRAPHIC DESIGNER BASED IN BOLOGNA (ITALY). <br><br> Since I was a child I fell in love with drawing and growing I appasioned of arts, visual design aesthetic. I like my job because it allows me to express myself and create worlds that only exist in my head. </p>
-            <h2>what i do</h2>
-            <p>ILLUSTRATION, GRAPHIC DESIGN, BRANDING AND UX\UI DESIGN.</p>
-            <h2>my interests</h2>
-        <div class="social-links-about">
-            <img src="assests/images/7534384_dress_women_fashion_clothing_female_icon.svg">
+<section id="aboutme">
+    <div class="about">
+        <div class="main">
+            <img src="assests/images/Close up.png">
+        <div class="about-text">
+                <h2>about me</h2>
+                <p>HI, I’M ARIANNA BARRELLA, I’M AN ILLUSTRATOR AND GRAPHIC DESIGNER BASED IN BOLOGNA (ITALY). <br><br> Since I was a child I fell in love with drawing and growing I appasioned of arts, visual design aesthetic. I like my job because it allows me to express myself and create worlds that only exist in my head. </p>
+                <h2>what i do</h2>
+                <p>ILLUSTRATION, GRAPHIC DESIGN, BRANDING AND UX\UI DESIGN.</p>
+                <h2>my interests</h2>
+            <div class="social-links-about">
+                <img src="assests/images/7534384_dress_women_fashion_clothing_female_icon.svg">
+         </div>
      </div>
- </div>
-</div>
+    </div>
+</section>
 <!--====================PROJECTS========================-->
-<section>
+<section id="projects">
     <div class="cont-gal">
         <h5>last projects</h5>
         <div class="gallery">
@@ -153,17 +155,19 @@
     </div>
 </section>
 <!--====================CONTACT ME======================-->
+<section id="contactme">
 <div class="contact-box">
-        <p>get in touch</p>
-    <div class="col-3">
-        <form>
-            <input type="text" class="input-field" placeholder ="YOUR NAME">
-            <input type="email" class="input-field" placeholder ="YOUR EMAIL">
-            <input type="text" class="input-field" placeholder ="SUBJECT">
-            <textarea type="text" class="input-field textarea-field" placeholder ="MESSAGE"></textarea>
-            <input type="submit" value="SUBMIT">
-        </form>
+    <p>get in touch</p>
+    <div class="inputs">
+        <input type="text" placeholder="FULL NAME"/>
+        <input type="email" placeholder="YOUR EMAIL"/>
+        <textarea name="message" placeholder="WRITE MESSAGE"></textarea>
     </div>
-</div> 
+    <button>SUBMIT</button>
+    <div class="imageinput">
+        <img src="assests/images/IMG_20170328_093557_633.jpg">
+    </div>
+</div>
+</section>
 </body>
 </html>
