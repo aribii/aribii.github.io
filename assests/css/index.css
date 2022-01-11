@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;  
     box-sizing: border-box;
+    border-right: none;
 }
 
 /*=======NAVBAR=======*/
 
 .container{
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     padding-top: 2%;
     padding-left: 10%;
@@ -19,7 +20,6 @@
 }
 
 .navbar{
-    width: 100%;
     display: flex;
     flex: 1;
     position: absolute;
@@ -56,16 +56,16 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: left;
-    margin: 268px 0;
+    margin: 280px 0;
 }
 
 .col-1{
     flex-basis: 60%;
     position: relative;
-    margin-left: 10px;
+    margin-left: 160px;
 }
 .col-1 h2{
-    font-size: 65px;
+    font-size: 60px;
     font-family: 'Italiana', serif;
     font-weight: lighter;
 }
@@ -82,87 +82,78 @@ nav ul li a:hover{
     margin-left: 0px;
 }
 
-/*================IMAGE=====================*/
+/*================IMAGEHOME=====================*/
 
 .col-2{
     position: relative;
     flex-basis: 100%;
-    top: -180px;
-    left: 200px;
+    top: -170px;
+    left: 55px;
     }
 
 .col-2 .indimg{
-    width: 60%;
-    height: auto;
+    width: 68%;
+    height: 100%;
     display: flex;
 }
 
 /*================ABOUT=====================*/
 
-.about{
-    margin: -200px 0;
-}
-
-.about img{
+.main img{
     height:auto;
-    width: 350px;
-    top: -128px;
+    width: 310px;
+    margin-left: 40px;
+    margin-top: -108px;
     }
 
 .main{
     flex-basis: 30%;
     position: relative;
-    margin-left: 145px;
     height: auto;
-    width: 530px;
-}
-
-.about-text{
-    width: 700px;
+    width: 100px;
 }
 
 .main{
-    width: 1130px;
-    max-width: 95%;
+    width: 850px;
+    max-width: 90%;
+    top: -250px;
     margin: 0 auto;
     display:flex;
     align-items: center;
     justify-content: space-around;
 }
 
+.about-text{
+    margin-top: -80px;
+}
 .about-text h2{
     font-family: 'Italiana', serif;
-    font-size: 38px;
+    font-size: 40px;
     font-weight: lighter;
     margin-bottom: 15px;
-    margin-left: 138px;
+    margin-left: 110px;
 }
 
 .about-text p{
     font-family: 'josefin sans', serif;
-    font-size: 10px;
-    font-weight: bold;
-    margin-left: 138px;
+    font-size: 10.5px;
+    font-weight: 600;
+    margin-left: 110px;
     margin-bottom: 18px;
 }
 
-.social-links-about img{
-    height: 18px;
-    margin: 12px;
-    margin-left: 0px;
-}
-
-.social-links-about {
-    text-align: left;
-}
 /*================PROJECTS=======================*/
 
+.cont-gal{
+    margin-top: -130px;
+    margin-left: 130px;
+}
 h5{
     font-family: 'Italiana';
     font-size: 48px;
     font-weight: lighter;
     margin-bottom: 68px;
-    margin-top: -28px;
+    margin-top: -58px;
     }
 
 .gallery img{
@@ -221,11 +212,9 @@ section{
      bottom:0;
  } 
 
- /*================SKILLS=========================*/
+  /*================SKILLS=========================*/
  
- section{
-    min-height: 100vh;
-    width: 100%;
+  section{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -233,7 +222,6 @@ section{
 
  .cont-skills{
     position: relative;
-    min-height: 0vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -257,7 +245,7 @@ section{
     font-family: 'Italiana';
     font-size: 48px;
     font-weight: lighter;
-    margin-top: -120px;
+    margin-top: 80px;
     margin-left: 60px;
 }
 
@@ -267,7 +255,7 @@ section{
       width: 35px;
       height: 30px;
       margin: 12px;
-      margin-top: 8px;
+      margin-top: 225px;
       margin-left: -270px;
  }
 
@@ -287,8 +275,8 @@ section{
     justify-content: left;
     align-items: left;
     padding: 50px 20px;
-    margin-left: 110px;
-    margin-top: -280px;
+    margin-left: 275px;
+    margin-top: 195px;
 }
 
 .contact-box p{
@@ -306,7 +294,6 @@ section{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    
 }
 
 .inputs input{
@@ -356,23 +343,21 @@ section{
     font-weight: bold;
     font-size: 10px;
     text-align: start;
-
 }
 
 button:hover{
     box-shadow: 0px 0px 20px 3px #e8bcb9;
 }
 
-
 .imageinput img{
     position: relative;
     flex-basis: 100%;
-    top: -420px;
-    left: 600px;
+    top: -480px;
+    left: 360px;
     }
 
 .imageinput img{
-    width: 34%;
+    width: 40%;
     height: auto;
     display: flex;
 }
