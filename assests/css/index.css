@@ -152,7 +152,7 @@ h5{
     font-family: 'Italiana';
     font-size: 48px;
     font-weight: lighter;
-    margin-bottom: 68px;
+    margin-bottom: 98px;
     margin-top: -58px;
     }
 
@@ -274,9 +274,8 @@ section{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 50px 20px;
     margin-left: 275px;
-    margin-top: 195px;
+    margin-top: 255px;
 }
 
 .contact-box p{
@@ -360,4 +359,36 @@ button:hover{
     width: 40%;
     height: auto;
     display: flex;
+}
+
+/*================FOOTER=====================*/
+
+footer{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.logofooter img{
+    margin-left:100px;
+}
+
+.text-footer p{
+    margin-left: -400px ;
+    font-family: 'josefinsans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.social-footer a{
+    text-decoration: none;
+    font-family: 'josefinsans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.social-footer a:hover{
+    color: #e8bcb9;
 }
