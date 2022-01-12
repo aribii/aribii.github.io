@@ -7,6 +7,10 @@
     border-right: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*=======NAVBAR=======*/
 
 .container{
@@ -368,27 +372,30 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 10px;
 }
 
 .logofooter img{
     margin-left:100px;
 }
 
-.text-footer p{
-    margin-left: -400px ;
-    font-family: 'josefinsans', sans-serif;
-    font-weight: bold;
-    font-size: 10px;
-}
-
 .social-footer a{
+    margin-left: 15px;
     text-decoration: none;
+    display: inline;
+    color:#000;
     font-family: 'josefinsans', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 10px;
 }
 
 .social-footer a:hover{
     color: #e8bcb9;
+}
+.text-footer p{
+    margin-right: 125px;
+    display: inline; 
+    font-family: 'josefinsans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
 }
