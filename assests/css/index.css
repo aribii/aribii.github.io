@@ -140,7 +140,8 @@ nav ul li a:hover{
 
 .about-text p{
     font-family: 'josefin sans', serif;
-    font-size: 10.5px;
+    line-height: 13px;
+    font-size: 11px;
     font-weight: 600;
     margin-left: 110px;
     margin-bottom: 18px;
@@ -278,8 +279,9 @@ section{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    margin-left: 275px;
-    margin-top: 255px;
+    margin-left: 290px;
+    margin-top: 185px;
+    margin-bottom: 90px;
 }
 
 .contact-box p{
@@ -353,14 +355,14 @@ button:hover{
 }
 
 .imageinput img{
-    position: relative;
+    position: absolute;
     flex-basis: 100%;
-    top: -480px;
-    left: 360px;
+    top: 2385px;
+    left: 625px;
     }
 
 .imageinput img{
-    width: 40%;
+    width: 30%;
     height: auto;
     display: flex;
 }
