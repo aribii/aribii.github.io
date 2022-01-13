@@ -108,7 +108,104 @@ nav ul li a:hover{
     display: flex;
     padding-bottom: -500px ;
 }
+/*================ABOUT=====================*/
 
+.main img{
+    height:auto;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 540px;
+    margin-bottom: 50px;
+    }
+
+    .main{
+        position: relative;
+        height: auto;
+        width: 800px;
+        max-width: 805px;
+        top: -380px;
+        margin: 0 auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+.about-text{
+    margin-top: 500px;
+}
+.about-text h2{
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: -28px;
+    margin-left: 50px;
+}
+
+.about-text p{
+    font-family: 'josefin sans', serif;
+    line-height: 11px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+/*================SKILLS=========================*/
+ 
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .cont-skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+  .skills{
+
+     position: relative;
+     width: 80px;
+     margin: 5px;
+     margin-left: 20px;
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: column;
+ }
+
+ .skills h6{
+    font-family: 'Italiana';
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: -380px;
+    margin-left: 109px;
+}
+
+ .skills img{
+      display: grid;
+      grid-template-columns: 10px 10px;
+      grid-template-rows: 10px 10px;
+      grid-gap: 2px;
+      width: 20px;
+      height: 20px;
+      margin-top: -320px;
+      margin-left: 85px; 
+      margin-bottom: 20px; 
+ }
+
+.skills p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: -32px;
+    margin-left: -35px;  
+}
 /*================PROJECTS=======================*/
 
 .cont-gal{
@@ -288,11 +385,12 @@ button:hover{
 /*================FOOTER=====================*/
 
 footer{
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .logofooter img{
