@@ -386,6 +386,7 @@ button:hover{
 
 footer{
     display: flex;
+    position: sticky;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 0%;
@@ -448,187 +449,172 @@ footer{
     }
     /*================HOME=====================*/
 
-.row{
+    .row{
     align-items: center;
-}
+    }
 
-.col-1{
+    .col-1{
     flex-basis: 100%;
     height:350px;
     align-items: center;
     margin-left: 100px;
-}
-.col-1 h2{
+    }
+    .col-1 h2{
     font-size: 56px;
-    font-family: 'Italiana', serif;
-    font-weight: lighter;
     margin-top: 355px;
     margin-bottom: -5px;
-}
+    }
 
-.col-1 h3{
-    font-size: 10px;
+    .col-1 h3{
     margin-left: 40px;
-    font-family: 'josefin sans', serif;
-    font-weight: bold;
     margin-bottom: 5px;
-}
+    }
 
-.social-links img{
+    .social-links img{
     height: 15px;
     margin: 0px;
     margin-left: 42px;
-}
+    }
 
-/*================IMAGEHOME=====================*/
+    /*================IMAGEHOME=====================*/
 
-.col-2{
+    .col-2{
     position: absolute;
-    flex-basis: 100%;
     top: 110px;
     left: 55px;
     }
 
-.col-2 .indimg{
+    .col-2 .indimg{
     width: 380px;
     height: 100%;
     display: flex;
     padding-bottom: -490px ;
-}
-
-/*================ABOUT=====================*/
-
-.main img{
-    height:auto;
-    width: 100px;
-    margin-left: 108px;
-    margin-top: 165px;
     }
 
-    .main{
-        flex-basis: 30%;
-        position: relative;
-        height: auto;
-        width: 100px;
-    }
-    
-    .main{
-        width: 800px;
-        max-width: 105%;
-        top: -250px;
-        margin: 0 auto;
-        display:flex;
-        align-items: center;
-        justify-content: space-around;
+    /*================ABOUT=====================*/
+    .about .main .main img .about-text .section .cont-skills{
+    align-items: center;
     }
 
-.about-text{
-    margin-top: 360px;
-}
-.about-text h2{
-    font-family: 'Italiana', serif;
-    font-size: 20px;
-    font-weight: lighter;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
+    .main img {
+    width: 335px;
+    margin-left: -350px;
+    margin-top: 480px;
+    }
 
-.about-text p{
-    font-family: 'josefin sans', serif;
-    line-height: 8px;
-    font-size: 10px;
+    .about-text {
+        margin-top: -385px;
+        margin-left: 80px;
+    }
+    .about-text h2{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+
+    .about-text p{
+    line-height: 11px;
+    font-size: 11px;
     font-weight: 600;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
-/*================SKILLS=========================*/
+    margin-left: 15px;
+    }
+    /*================SKILLS=========================*/
  
-section{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-}
+    .skills{ 
+     margin-left: 0px;
+     }
 
- .cont-skills{
-    width: 50%;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
+    .skills h6{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left: 120px;
     }
 
-  .skills{
+    .skills img{
+      display: none;
+    }
 
-     position: relative;
-     width: 80px;
-     margin: 5px;
-     margin-left: 20px;
-     display: flex;
-     justify-content: left;
-     align-items: center;
-     flex-wrap: wrap;
-     flex-direction: column;
- }
-
- .skills h6{
-    font-family: 'Italiana';
-    font-size: 20px;
-    font-weight: lighter;
-    margin-top: -440px;
-    margin-left: 95px;
-}
-
- .skills img{
-      display: grid;
-      grid-template-columns: 10px 10px;
-      grid-template-rows: 10px 10px;
-      grid-gap: 2px;
-      width: 8px;
-      height: 8px;
-      margin-top: -420px;
-      margin-left: 95px;  
- }
-
-.skills p{
-     display: none;
-}
-/*================PROJECTS=======================*/
-.cont-gal{
+    .skills p{
+     display: center;
+     margin-top: 60px;
+     margin-left: -50px;
+    }
+    /*================PROJECTS=======================*/
+    .cont-gal{
     margin-top: 120px;
     margin-left: 0px;
-    margin-bottom: 100px;
-}
-h5{
-    font-family: 'Italiana';
-    font-size: 25px;
-    font-weight: lighter;
+    }
+
+    h5{
+    font-size: 30px;
     margin-bottom: 5px;
     margin-top: -20px;
-    margin-left: 150px;
+    margin-left: 110px;
     }
 
     .cont-gal p{
         font-size: 11px;
-        font-weight: 600;
          font-weight: bold;
          font-size: 10px;
-         font-family: 'josefinsans', sans-serif;
          margin-bottom: 30px;   
-         margin-left: 110px; 
+         margin-left: 80px; 
     }
 
     .gallery{
-        width: 95%;
-      position: absolute;
-      align-items: center;
+      width: 90%;
+      position: center;
       margin-bottom: 20px;
+      margin-left: 45px;
     }
-/*================FOOTER=======================*/
+    /*================CONTACT ME=====================*/
+
+    .contact-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 600px;
+    margin-bottom: 50px;
+    }
+
+    .contact-box p{
+    font-size: 40px;
+    margin: 0px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 0px;
+    }
+
+    .inputs{
+    margin: 10px 0px;
+    justify-content: left;
+    align-items: left;
+    }
+
+    button{
+        margin: 0px 0px;
+        margin-top: 5px;
+        margin-left: -80px;
+    }
+
+    .imageinput img{
+    position: absolute;
+    top: 85px;
+    left: 45px;
+    }
+
+    .imageinput img{
+    width: 85%;
+    display: flex;
+    }
+
+    /*================FOOTER=======================*/
    
-    footer{
+    .footer{
         padding-left: 5%;
         padding-right: 5%;
         box-sizing: border-box;
-    }
+        position: sticky;
+         }
     
     .logofooter img{
         margin-left:0;
@@ -638,14 +624,11 @@ h5{
         margin-left: 5px;
         display: inline;
         font-size: 8px;
-        font-weight: bold;
     }
     
     .text-footer p{
         margin-right: 0px;
         display: inline; 
-        font-family: 'josefinsans', sans-serif;
-        font-weight: bold;
         font-size: 8px;
     }
 }   
